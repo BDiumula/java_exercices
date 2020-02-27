@@ -1,7 +1,7 @@
 console.log("////// EXERCICE 6 : Code la vie ///////" );
 
 
-// Premier ARN
+// premier ARN
 const arn_1 = "CCGUCGUUGCGCUACAGC";
 split = arn_1.match(/.{1,3}/g)
 console.log(split)
@@ -55,68 +55,68 @@ if (~proline4) {
    split[proline4] = "Proline";
 }
 
-//Leucine 
-Leucine1 = split.indexOf("UUA") 
-if (~Leucine1) {
-   split[Leucine1] = "Leucine";
+//leucine 
+leucine1 = split.indexOf("UUA") 
+if (~leucine1) {
+   split[leucine1] = "Leucine";
 }
 
-Leucine2 = split.indexOf("UUG") 
-if (~Leucine2) {
-   split[Leucine2] = "Leucine";
+leucine2 = split.indexOf("UUG") 
+if (~leucine2) {
+   split[leucine2] = "Leucine";
 }
-//Phénylalanine 
-Phénylalanine1 = split.indexOf("UUU") 
-if (~Phénylalanine1) {
-   split[Phénylalanine1] = "Phénylalanine";
-}
-
-Phénylalanine2 = split.indexOf("UUC") 
-if (~Phénylalanine2) {
-   split[Phénylalanine2] = "Phénylalanine";
+//phénylalanine 
+phénylalanine1 = split.indexOf("UUU") 
+if (~phénylalanine1) {
+   split[phénylalanine1] = "Phénylalanine";
 }
 
-//Tyrosine 
-
-Tyrosine1 = split.indexOf("UAU") 
-if (~Tyrosine1) {
-   split[Tyrosine1] = "Tyrosine";
+phénylalanine2 = split.indexOf("UUC") 
+if (~phénylalanine2) {
+   split[phénylalanine2] = "Phénylalanine";
 }
 
-Tyrosine2 = split.indexOf("UAC") 
-if (~Tyrosine2) {
-   split[Tyrosine2] = "Tyrosine";
+//tyrosine 
+
+tyrosine1 = split.indexOf("UAU") 
+if (~tyrosine1) {
+   split[tyrosine1] = "Tyrosine";
+}
+
+tyrosine2 = split.indexOf("UAC") 
+if (~tyrosine2) {
+   split[tyrosine2] = "Tyrosine";
 }
 
 //Arginine 
-Arginine1 = split.indexOf("CGU") 
-if (~Arginine1) {
-   split[Arginine1] = "Arginine";
+arginine1 = split.indexOf("CGU") 
+if (~arginine1) {
+   split[arginine1] = "Arginine";
 }
 
-Arginine2 = split.indexOf("CGC") 
-if (~Arginine2) {
-   split[Arginine2] = "Arginine";
+arginine2 = split.indexOf("CGC") 
+if (~arginine2) {
+   split[arginine2] = "Arginine";
 }
 
-Arginine3 = split.indexOf("CGA") 
-if (~Arginine3) {
-   split[Arginine3] = "Arginine";
+arginine3 = split.indexOf("CGA") 
+if (~arginine3) {
+   split[arginine3] = "Arginine";
 }
 
-Arginine4 = split.indexOf("CGG") 
-if (~Arginine4) {
-   split[Arginine4] = "Arginine";
+arginine4 = split.indexOf("CGG") 
+if (~arginine4) {
+   split[arginine4] = "Arginine";
 }
 
-Arginine5 = split.indexOf("AGA") 
-if (~Arginine5) {
-   split[Arginine5] = "Arginine";
+arginine5 = split.indexOf("AGA") 
+if (~arginine5) {
+   split[arginine5] = "Arginine";
 }
 
-Arginine6 = split.indexOf("AGG") 
-if (~Arginine6) {
-   split[Arginine6] = "Arginine";
+arginine6 = split.indexOf("AGG") 
+if (~arginine6) {
+   split[arginine6] = "Arginine";
 }
 
 joined = split.join("-");
@@ -178,68 +178,68 @@ if (~proline4) {
    split_2[proline4] = "Proline";
 }
 
-//Leucine 
-Leucine1 = split_2.indexOf("UUA") 
-if (~Leucine1) {
-   split_2[Leucine1] = "Leucine";
+//leucine 
+leucine1 = split_2.indexOf("UUA") 
+if (~leucine1) {
+   split_2[leucine1] = "Leucine";
 }
 
-Leucine2 = split_2.indexOf("UUG") 
-if (~Leucine2) {
-   split_2[Leucine2] = "Leucine";
+leucine2 = split_2.indexOf("UUG") 
+if (~leucine2) {
+   split_2[leucine2] = "Leucine";
 }
-//Phénylalanine 
-Phénylalanine1 = split_2.indexOf("UUU") 
-if (~Phénylalanine1) {
-   split_2[Phénylalanine1] = "Phénylalanine";
-}
-
-Phénylalanine2 = split_2.indexOf("UUC") 
-if (~Phénylalanine2) {
-   split_2[Phénylalanine2] = "Phénylalanine";
+//phénylalanine 
+phénylalanine1 = split_2.indexOf("UUU") 
+if (~phénylalanine1) {
+   split_2[phénylalanine1] = "Phénylalanine";
 }
 
-//Tyrosine 
-
-Tyrosine1 = split_2.indexOf("UAU") 
-if (~Tyrosine1) {
-   split_2[Tyrosine1] = "Tyrosine";
+phénylalanine2 = split_2.indexOf("UUC") 
+if (~phénylalanine2) {
+   split_2[phénylalanine2] = "Phénylalanine";
 }
 
-Tyrosine2 = split_2.indexOf("UAC") 
-if (~Tyrosine2) {
-   split_2[Tyrosine2] = "Tyrosine";
+//tyrosine 
+
+tyrosine1 = split_2.indexOf("UAU") 
+if (~tyrosine1) {
+   split_2[tyrosine1] = "Tyrosine";
+}
+
+tyrosine2 = split_2.indexOf("UAC") 
+if (~tyrosine2) {
+   split_2[tyrosine2] = "Tyrosine";
 }
 
 //Arginine 
-Arginine1 = split_2.indexOf("CGU") 
-if (~Arginine1) {
-   split_2[Arginine1] = "Arginine";
+arginine1 = split_2.indexOf("CGU") 
+if (~arginine1) {
+   split_2[arginine1] = "Arginine";
 }
 
-Arginine2 = split_2.indexOf("CGC") 
-if (~Arginine2) {
-   split_2[Arginine2] = "Arginine";
+arginine2 = split_2.indexOf("CGC") 
+if (~arginine2) {
+   split_2[arginine2] = "Arginine";
 }
 
-Arginine3 = split_2.indexOf("CGA") 
-if (~Arginine3) {
-   split_2[Arginine3] = "Arginine";
+arginine3 = split_2.indexOf("CGA") 
+if (~arginine3) {
+   split_2[arginine3] = "Arginine";
 }
 
-Arginine4 = split_2.indexOf("CGG") 
-if (~Arginine4) {
-   split_2[Arginine4] = "Arginine";
+arginine4 = split_2.indexOf("CGG") 
+if (~arginine4) {
+   split_2[arginine4] = "Arginine";
 }
 
-Arginine5 = split_2.indexOf("AGA") 
-if (~Arginine5) {
-   split_2[Arginine5] = "Arginine";
+arginine5 = split_2.indexOf("AGA") 
+if (~arginine5) {
+   split_2[arginine5] = "Arginine";
 }
 
-Arginine6 = split_2.indexOf("AGG") 
-if (~Arginine6) {
-   split_2[Arginine6] = "Arginine";
+arginine6 = split_2.indexOf("AGG") 
+if (~arginine6) {
+   split_2[arginine6] = "Arginine";
 }
 
 
